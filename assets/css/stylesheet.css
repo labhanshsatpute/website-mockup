@@ -1,0 +1,149 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Rubik', sans-serif;
+	scroll-behavior: smooth;
+}
+a.btn-color-1,
+button.btn-color-1 {
+	color: #fff;
+	background-color: #4e4037;
+	border: 2px solid #4e4037;
+	border-radius: 7px;
+}
+a.btn-color-1:hover,
+button.btn-color-1:hover {
+	color: #4e4037;
+	background-color: transparent;
+}
+
+a.btn-color-2,
+button.btn-color-2 {
+	color: #1f2f44;
+	background-color: #f1faee;
+	border: 2px solid #f1faee;
+	border-radius: 7px;
+}
+a.btn-color-2:hover,
+button.btn-color-2:hover {
+	color: #1f2f44;
+	background-color: #f1faee;
+}
+img.logo {
+	height: 50px;
+	width: auto;
+}
+body {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+main {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+section {
+	overflow: hidden;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+section div.container {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+section.home-section {
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/img-4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+section.ourstory-section {
+	background-image: linear-gradient(65deg,#f1faee 60%,rgba(0,0,0,0.3) 40%),url("../images/img-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: none;
+}
+section.ourtechnology-section {
+	background-image: linear-gradient(-65deg,#f1faee 60%,rgba(0,0,0,0.3) 40%),url("../images/img-7.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: none;
+}
+section.contact-section {
+	background-image: linear-gradient(65deg,#f1faee 50%,rgba(0,0,0,0.5) 50%),url("../images/img-6.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: none;
+}
+img.client-img {
+	height: 40px;
+	width: auto;
+}
+img.img-1 {
+	height: 300px;
+	width: auto;
+}
+img.contact-img {
+	height: 25px;
+	width: auto;
+}
+form#contact-form div input,
+form#contact-form div textarea {
+	outline: none;
+	border-radius: 7px;
+	background-color: transparent;
+	border: 2px solid #f1faee;
+	color: #fff;
+}
+::placeholder {
+	color: #f1faee;
+}
+form#contact-form button.btn {
+	color: #1f2f44;
+	background-color: #f1faee;
+	border: 2px solid #f1faee;
+	border-radius: 7px;
+}
+form#contact-form button.btn:hover {
+	color: #1f2f44;
+	background-color: #f1faee;
+	border: 2px solid #f1faee;
+}
+
+@media (max-width: 767px) {
+	section.ourstory-section {
+		background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.7)),url("../images/img-1.jpg");
+		background-color: #caf0f8;
+	}
+	section.ourtechnology-section {
+		background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.7)),url("../images/img-7.jpg");
+		background-color: #caf0f8;
+	}
+	section.contact-section {
+		background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.7)),url("../images/img-6.jpg");
+		background-color: #caf0f8;
+	}
+	* {
+		font-size: 0.9rem;
+	}
+	form#contact-form div input,
+	form#contact-form div textarea {
+		outline: none;
+		border-radius: 7px;
+		background-color: transparent;
+		border: 2px solid #000;
+		color: #000;
+	}
+	::placeholder {
+		color: #000;
+	}
+	form#contact-form button.btn {
+		color: #f1faee;
+		background-color: #1f2f44;
+		border: 2px solid #1f2f44;
+		border-radius: 7px;
+	}
+	form#contact-form button.btn:hover {
+		color: #f1faee;
+		background-color: #1f2f44;
+		border: 2px solid #1f2f44;
+	}
+}
